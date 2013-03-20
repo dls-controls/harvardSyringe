@@ -22,40 +22,6 @@ include $(TOP)/configure/CONFIG
 #xxx_LIBS += $(EPICS_BASE_IOC_LIBS)
 
 
-# ------------------------
-# Build an IOC Application
-# ------------------------
-
-PROD_IOC = harvardSyringe
-
-# harvardSyringe.dbd will be installed into <top>/dbd
-DBD += harvardSyringe.dbd
-
-# harvardSyringe.dbd will be created from these files
-harvardSyringe_DBD += base.dbd
-#harvardSyringe_DBD += xxx.dbd
-
-# harvardSyringe_registerRecordDeviceDriver.cpp will be created
-# harvardSyringe.dbd
-harvardSyringe_SRCS += harvardSyringe_registerRecordDeviceDriver.cpp
-
-# These two lines are needed for non-vxWorks builds, such as Linux
-harvardSyringe_SRCS_DEFAULT += harvardSyringeMain.cpp
-harvardSyringe_SRCS_vxWorks += -nil-
-
-# Add locally compiled object code
-#harvardSyringe_SRCS +=
-
-# The following adds object code from base/src/vxWorks
-harvardSyringe_OBJS_vxWorks += $(EPICS_BASE_BIN)/vxComLibrary
-
-# This line says that this IOC Application depends on the
-# xxx Support Module
-#harvardSyringe_LIBS += xxx
-
-# We need to link this IOC Application against the EPICS Base libraries
-harvardSyringe_LIBS += $(EPICS_BASE_IOC_LIBS)
-
 # ---------------------------------------------------
 
 # NOTE: To build SNL programs, SNCSEQ must be defined
