@@ -4,7 +4,7 @@ major 4
 minor 0
 release 1
 x 983
-y 406
+y 443
 w 468
 h 450
 font "arial-medium-r-18.0"
@@ -99,7 +99,7 @@ object activeXTextClass
 beginObjectProperties
 major 4
 minor 1
-release 0
+release 1
 x 27
 y 3
 w 439
@@ -222,7 +222,7 @@ object activeXTextClass
 beginObjectProperties
 major 4
 minor 1
-release 0
+release 1
 x 0
 y 0
 w 50
@@ -265,11 +265,11 @@ object activeXTextClass
 beginObjectProperties
 major 4
 minor 1
-release 0
+release 1
 x 10
 y 45
 w 58
-h 14
+h 13
 font "arial-medium-r-12.0"
 fgColor index 14
 bgColor index 8
@@ -285,7 +285,7 @@ object activeXTextClass
 beginObjectProperties
 major 4
 minor 1
-release 0
+release 1
 x 15
 y 60
 w 75
@@ -304,7 +304,7 @@ object activeXTextClass
 beginObjectProperties
 major 4
 minor 1
-release 0
+release 1
 x 15
 y 380
 w 105
@@ -342,7 +342,7 @@ endObjectProperties
 object activeButtonClass
 beginObjectProperties
 major 4
-minor 0
+minor 1
 release 0
 x 90
 y 30
@@ -365,7 +365,7 @@ object activeXTextClass
 beginObjectProperties
 major 4
 minor 1
-release 0
+release 1
 x 215
 y 35
 w 115
@@ -422,9 +422,9 @@ object activeXTextClass
 beginObjectProperties
 major 4
 minor 1
-release 0
+release 1
 x 15
-y 100
+y 340
 w 75
 h 35
 font "arial-bold-r-12.0"
@@ -443,7 +443,7 @@ major 10
 minor 0
 release 0
 x 110
-y 100
+y 340
 w 115
 h 35
 controlPv "$(device):TTIME"
@@ -460,7 +460,7 @@ major 10
 minor 0
 release 0
 x 235
-y 105
+y 345
 w 130
 h 25
 controlPv "$(device):TTIME:RBV"
@@ -477,7 +477,7 @@ major 10
 minor 0
 release 0
 x 235
-y 145
+y 105
 w 130
 h 25
 controlPv "$(device):DIAMETER:RBV"
@@ -495,7 +495,7 @@ major 10
 minor 0
 release 0
 x 110
-y 140
+y 100
 w 115
 h 35
 controlPv "$(device):DIAMETER"
@@ -510,9 +510,9 @@ object activeXTextClass
 beginObjectProperties
 major 4
 minor 1
-release 0
+release 1
 x 15
-y 140
+y 100
 w 75
 h 35
 font "arial-bold-r-12.0"
@@ -529,9 +529,9 @@ object activeXTextClass
 beginObjectProperties
 major 4
 minor 1
-release 0
+release 1
 x 15
-y 180
+y 140
 w 75
 h 35
 font "arial-bold-r-12.0"
@@ -550,7 +550,7 @@ major 10
 minor 0
 release 0
 x 110
-y 180
+y 140
 w 115
 h 35
 controlPv "$(device):IRATE"
@@ -567,7 +567,7 @@ major 10
 minor 0
 release 0
 x 235
-y 185
+y 145
 w 75
 h 25
 controlPv "$(device):IRATE:RBV"
@@ -585,7 +585,7 @@ major 10
 minor 0
 release 0
 x 235
-y 225
+y 185
 w 75
 h 25
 controlPv "$(device):WRATE:RBV"
@@ -603,7 +603,7 @@ major 10
 minor 0
 release 0
 x 110
-y 220
+y 180
 w 115
 h 35
 controlPv "$(device):WRATE"
@@ -618,9 +618,9 @@ object activeXTextClass
 beginObjectProperties
 major 4
 minor 1
-release 0
+release 1
 x 15
-y 220
+y 180
 w 90
 h 35
 font "arial-bold-r-12.0"
@@ -637,9 +637,9 @@ object activeXTextClass
 beginObjectProperties
 major 4
 minor 1
-release 0
+release 1
 x 15
-y 260
+y 220
 w 75
 h 35
 font "arial-bold-r-12.0"
@@ -658,7 +658,7 @@ major 10
 minor 0
 release 0
 x 235
-y 265
+y 225
 w 75
 h 25
 controlPv "$(device):IVOLUME:RBV"
@@ -676,7 +676,7 @@ major 10
 minor 0
 release 0
 x 235
-y 305
+y 265
 w 75
 h 25
 controlPv "$(device):WVOLUME:RBV"
@@ -692,9 +692,9 @@ object activeXTextClass
 beginObjectProperties
 major 4
 minor 1
-release 0
+release 1
 x 15
-y 300
+y 260
 w 105
 h 35
 font "arial-bold-r-12.0"
@@ -711,9 +711,9 @@ object activeXTextClass
 beginObjectProperties
 major 4
 minor 1
-release 0
+release 1
 x 15
-y 340
+y 300
 w 75
 h 35
 font "arial-bold-r-12.0"
@@ -732,7 +732,7 @@ major 10
 minor 0
 release 0
 x 110
-y 340
+y 300
 w 115
 h 35
 controlPv "$(device):TVOLUME"
@@ -749,7 +749,7 @@ major 10
 minor 0
 release 0
 x 235
-y 345
+y 305
 w 75
 h 25
 controlPv "$(device):TVOLUME:RBV"
@@ -764,7 +764,7 @@ endObjectProperties
 object activeButtonClass
 beginObjectProperties
 major 4
-minor 0
+minor 1
 release 0
 x 10
 y 420
@@ -788,7 +788,7 @@ endObjectProperties
 object activeButtonClass
 beginObjectProperties
 major 4
-minor 0
+minor 1
 release 0
 x 95
 y 420
@@ -812,7 +812,7 @@ endObjectProperties
 object activeButtonClass
 beginObjectProperties
 major 4
-minor 0
+minor 1
 release 0
 x 185
 y 420
@@ -839,7 +839,7 @@ major 10
 minor 0
 release 0
 x 315
-y 185
+y 145
 w 50
 h 25
 controlPv "$(device):IRATEUNITS:RBV"
@@ -875,7 +875,7 @@ major 4
 minor 0
 release 0
 x 370
-y 185
+y 145
 w 80
 h 25
 fgColor index 14
@@ -894,7 +894,7 @@ major 10
 minor 0
 release 0
 x 315
-y 225
+y 185
 w 50
 h 25
 controlPv "$(device):WRATEUNITS:RBV"
@@ -912,7 +912,7 @@ major 10
 minor 0
 release 0
 x 315
-y 265
+y 225
 w 50
 h 25
 controlPv "$(device):IVOLUMEUNITS:RBV"
@@ -930,7 +930,7 @@ major 10
 minor 0
 release 0
 x 315
-y 305
+y 265
 w 50
 h 25
 controlPv "$(device):WVOLUMEUNITS:RBV"
@@ -948,7 +948,7 @@ major 10
 minor 0
 release 0
 x 315
-y 345
+y 305
 w 50
 h 25
 controlPv "$(device):TVOLUMEUNITS:RBV"
@@ -966,7 +966,7 @@ major 4
 minor 0
 release 0
 x 370
-y 225
+y 185
 w 80
 h 25
 fgColor index 14
@@ -985,7 +985,7 @@ major 4
 minor 0
 release 0
 x 370
-y 345
+y 305
 w 80
 h 25
 fgColor index 14
@@ -1001,10 +1001,10 @@ endObjectProperties
 object activeButtonClass
 beginObjectProperties
 major 4
-minor 0
+minor 1
 release 0
 x 370
-y 265
+y 225
 w 80
 h 25
 fgColor index 14
@@ -1027,10 +1027,10 @@ endObjectProperties
 object activeButtonClass
 beginObjectProperties
 major 4
-minor 0
+minor 1
 release 0
 x 370
-y 305
+y 265
 w 80
 h 25
 fgColor index 14
