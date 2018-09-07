@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<components arch="linux-x86">
+<components arch="linux-x86_64">
 	<!--<asyn.AsynSerial baud="115200" bits="8" name="ty_syringe" parity="None" port="/dev/ttyS0" simulation="localhost:7001" stop="2"/>-->
-	<asyn.AsynIP baud="9600" bits="8" name="ty_syringe" parity="None" port="172.23.16.100:7013 COM" simulation="localhost:7001" stop="2"/>
+	<asyn.AsynIP baud="9600" bits="8" name="ty_syringe" port="172.23.241.3:7010"/>
 	<harvardSyringe.harvardSyringe DISABLE="0" P="TESTSYRINGE" PORT="ty_syringe" Q=""/>
 	<!--<EPICS_BASE.StartupCommand command="asynSetTraceMask(&quot;ty_syringe&quot;, 0, 8)" post_init="False"/>-->
 	<!--<EPICS_BASE.StartupCommand command="asynSetTraceIOMask(&quot;ty_syringe&quot;, 0, 2)" post_init="False"/>-->
