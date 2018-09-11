@@ -1,5 +1,6 @@
 InTerminator = 0x11;
 OutTerminator = CR LF;
+ReplyTimeout = 2000;
 
 setPollOn {
 	out "poll on";
