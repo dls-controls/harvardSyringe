@@ -366,11 +366,10 @@ record(ao, "$(P)$(Q):TVOLUME") {
   field(SDIS, "$(P)$(Q):DISABLE")
 }
 
-record(ai, "$(P)$(Q):TVOLUME:RBV") {
+record(stringin, "$(P)$(Q):TVOLUME:RBV") {
   field(DESC, "Target Volume Readback")
   field(DTYP, "stream")
   field(INP, "@harvardSyringe.proto getTVolume($(P)$(Q)) $(PORT)")
-  field(PREC, "4")
   field(SDIS, "$(P)$(Q):DISABLE")
 }
 

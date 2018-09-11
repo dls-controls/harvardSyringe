@@ -3,8 +3,8 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 983
-y 480
+x 225
+y 195
 w 468
 h 450
 font "arial-medium-r-18.0"
@@ -754,7 +754,6 @@ w 75
 h 25
 controlPv "$(device):TVOLUME:RBV"
 fgColor index 16
-fgAlarm
 bgColor index 10
 fill
 font "arial-bold-r-14.0"
